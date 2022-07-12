@@ -1,0 +1,17 @@
+
+body{
+  background-color: rgb(232, 226, 219);
+  text-align: center;
+  border-spacing: 0;
+}
+h1{
+  color: black;
+  font-size: 4vw;
+   text-align:center
+}
+ol{
+  color: green;
+}
+ul{
+  color: rgb(24, 31, 179);
+}
