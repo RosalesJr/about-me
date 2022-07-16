@@ -9,9 +9,10 @@ h1{
   font-size: 4vw;
    text-align:center
 }
-ol{
-  color: rgb(240, 0, 0);
-}
 ul{
   color: rgb(24, 31, 179);
+}
+ol{
+  color: rgb(240, 0, 0);
+  border: solid black;
 }
