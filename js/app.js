@@ -79,7 +79,7 @@ function questionSix() {
   let myGuess = 8;
   let numGuess = 4;
   let theAnswer = false;
-  console.log('test');
+  
   while (numGuess && !theAnswer) {
     let userGuess = prompt('Guess a number 1-10');
     numGuess--;
@@ -113,10 +113,7 @@ function questionSeven() {
         alert('your right I love pasta tacos and burritos');
         userPoints++;
         break;
-      }
-      if (userGuess !== myFav) {
-        console.log('try again');
-      } if (numTime === 0) {
+      }if (numTime === 0) {
         alert('sorry no more guesses its pasta, tacos and burritos');
         break;
       }
